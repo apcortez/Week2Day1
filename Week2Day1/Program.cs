@@ -5,7 +5,7 @@ namespace Week2Day1
     class Program
     {
         static void Main(string[] args)
-        {
+        {   
             Person p1; //creo il solo riferimento all'oggetto senza crearlo
             //punto a null
 

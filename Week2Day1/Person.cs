@@ -32,6 +32,7 @@ namespace Week2Day1
 
         }
 
+        //proprietà
         public string FirstName
         {
             get 

@@ -72,9 +72,10 @@ namespace Esercizio1
 
         internal static void View()
         {
+            Console.WriteLine("***Lista Libri***");
             if (books != null)
             {
-                Console.WriteLine("***Lista Libri***");
+               0
                 foreach (Book book in books)
                 {
                     Console.WriteLine(" ISBN: " + book.ISBN + " Titolo: " + book.Titolo + " Autore: " + book.Autore);

@@ -72,5 +72,13 @@ namespace Week2Day1
         }
         
         public HomeAddress Address { get; set; }
+    
+        internal void PrintBioData()
+        {
+            Console.WriteLine(FirstName + " " + LastName + " " + Age + " " +Address.Street);
+        }
+
+
     }
+
 }

@@ -28,6 +28,7 @@ namespace Week2Day1
             Person p5 = new Person("Samuele", "Verdi", 25);
             p5.Address.Street = "Via Roma";
 
+            p5.PrintBioData();
         }
     }
 }
